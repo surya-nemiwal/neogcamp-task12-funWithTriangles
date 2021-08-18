@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+html,body{
+    font-family: Raleway, sans-serif;
+    margin: 0 0;
+    height: 100%;
+}
+
+header{
+    background-color: green;
+    padding: 1rem;
+
+}
+
+.nav-items{
+    display: inline;
+    padding: 1rem
+}
+.link{
+   text-decoration: none;
+   color: white;
+}
+.link-highlight{
+    border-bottom: 1px solid lightgreen;
+    padding-bottom: .4rem;
+    font-weight: bold;
+    /* letter-spacing: 1p; */
+}
+
+.section{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.angle-input{
+    display: block;
+    padding:.5rem;
+    margin: .2rem 0rem 2rem 0rem;
+    width: 100%;
+}
+
+.input-label{
+    text-align: start;
+    margin: 0;
+    font-size: .9rem;
+}
+
+#checkTriangle,#quiz,#checkArea,#checkHypotenuse{
+    background-color: green;
+    border-radius: .5rem;
+    border: 1px solid green;
+    width: 80%;
+    padding:.5rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/*   ---- quiz tab ----  */
+
+.quiz-tile{
+    border: 1px solid green;
+    text-align: start;
+    padding: .8rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.quiz-tile > p{
+    margin: .4rem .5rem;
+}
+.options{
+    padding-left: 1rem;
+}
